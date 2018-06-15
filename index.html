@@ -1,127 +1,412 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Prototype fb_analytics</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <!-- <script src="main.js"></script> -->
 </head>
 
-<body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-        <h5 class="my-0 mr-md-auto font-weight-normal">inHouse Facebook Analitika</h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="#">Features</a>
-            <a class="p-2 text-dark" href="#">Enterprise</a>
-            <a class="p-2 text-dark" href="#">Support</a>
-            <a class="p-2 text-dark" href="#">Pricing</a>
+<body class="h-100">
+    <div class="container-fluid h-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Product Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Nastavitve
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-iprom my-2 my-sm-0" type="submit">Toni Hec</button>
+            </div>
         </nav>
-        <a class="btn btn-outline-primary" href="#">Hinko Polanc</a>
+        <div class="row h-100">
+            <div class="col-sm-2 bg-color-lightgrey">
+                <div class="list-group mt-2 list-group-flush font-size-12px">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        AMZS
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Paloma</a>
+                    <a href="#" class="list-group-item list-group-item-action active">Canon</a>
+                    <a href="#" class="list-group-item list-group-item-action">Petrol</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled">Unicredit banka</a>
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row mt-2">
+                            <div class="col-sm-8">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                            <i class="far fa-calendar-alt"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" value="15.5.2018">
+                                    <input type="text" class="form-control" value="15.6.2018">
+                                </div>
+                            </div>
+                            <div class="col-sm-1">
+
+                            </div>
+                            <div class="col-sm-3">
+                                <!-- Example single danger button -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Filtriraj
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Objave strani</a>
+                                        <a class="dropdown-item" href="#">Objave obiskovalcev</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <h6 class="mt-2">Top objave</h6>
+                        <div class="row mt-2 bg-color-lightgrey ml-1 mr-1 add-border">
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/15/65506553.jpg" alt="..." class="img-thumbnail">
+                                    </div>
+                                    <div class="col-sm-6 font-size-10px">
+                                        <div>
+                                            <i class="fas fa-comment" title="Število komentarjev"></i> 50</div>
+                                        <div>
+                                            <i class="fas fa-thumbs-up" title="Število reakcij"></i> 90</div>
+                                        <div>
+                                            <i class="fas fa-share" title="Število deljenj"></i> 23</div>
+                                        <div>
+                                            <i class="far fa-calendar-alt" title="Datum objave"></i> 5.6.2018</div>
+                                    </div>
+                                </div>
+                                <div class="row font-size-12px">
+                                    <div class="col-sm">
+                                        <strong>
+                                            Sporočilo
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="row font-size-12px">
+                                    <div class="col-sm">
+                                        To je to!!! ajaja ahahaa, noro. Slika in pol. Lepo je lepo in ni grdo, dan sonce voda drevesa barva okno veter
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/15/65506550.jpg" alt="..." class="img-thumbnail">
+                                    </div>
+                                    <div class="col-sm-6 font-size-10px">
+                                        <div>
+                                            <i class="fas fa-comment" title="Število komentarjev"></i> 50</div>
+                                        <div>
+                                            <i class="fas fa-thumbs-up" title="Število reakcij"></i> 90</div>
+                                        <div>
+                                            <i class="fas fa-share" title="Število deljenj"></i> 23</div>
+                                        <div>
+                                            <i class="far fa-calendar-alt" title="Datum objave"></i> 5.6.2018</div>
+                                    </div>
+                                </div>
+                                <div class="row font-size-10px">
+                                    <div class="col-sm">
+                                        <strong>
+                                            Sporočilo
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="row font-size-12px">
+                                    <div class="col-sm">
+                                        To je to!!! ajaja ahahaa, noro. Slika in pol.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/14/65506445.jpg" alt="..." class="img-thumbnail">
+                                    </div>
+                                    <div class="col-sm-6 font-size-10px">
+                                        <div>
+                                            <i class="fas fa-comment" title="Število komentarjev"></i> 50</div>
+                                        <div>
+                                            <i class="fas fa-thumbs-up" title="Število reakcij"></i> 90</div>
+                                        <div>
+                                            <i class="fas fa-share" title="Število deljenj"></i> 23</div>
+                                        <div>
+                                            <i class="far fa-calendar-alt" title="Datum objave"></i> 5.6.2018</div>
+                                    </div>
+                                </div>
+                                <div class="row font-size-10px">
+                                    <div class="col-sm">
+                                        <strong>
+                                            Sporočilo
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="row font-size-12px">
+                                    <div class="col-sm">
+                                        To je to!!! ajaja ahahaa, noro. Slika in pol.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <table class="table table-sm ml-2 mr-2 font-size-12px add-border">
+                                <thead class="thead-lightgrey">
+                                    <tr>
+                                        <th scope="col">Št. sledilcev</th>
+                                        <th scope="col">Odzivnost</th>
+                                        <th scope="col">Število objav strani</th>
+                                        <th scope="col">Število objav obiskovalcev</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">9898</th>
+                                        <td>Hitra</td>
+                                        <td>12</td>
+                                        <td>456</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                            <html>
+                                    <head>
+                                      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                                      <script type="text/javascript">
+                                        google.charts.load('current', {'packages':['corechart']});
+                                        google.charts.setOnLoadCallback(drawVisualization);
+                                  
+                                        function drawVisualization() {
+                                          // Some raw data (not necessarily accurate)
+                                          var data = google.visualization.arrayToDataTable([
+                                           ['Dan', 'Objave', 'Komentar', 'Reakcije'],
+                                           ['15.5.2018',  165,      938,         522],
+                                           ['16.5.2018',  135,      1120,        599],
+                                           ['17.5.20187',  157,      1167,        587],
+                                           ['18.5.2018',  139,      1110,        615],
+                                           ['2008/09',  136,      691,         629],
+                                           ['2004/05',  165,      938,         522],
+                                           ['2005/06',  135,      1120,        599],
+                                           ['2006/07',  157,      1167,        587],
+                                           ['2007/08',  139,      1110,        615],
+                                           ['2008/09',  136,      691,         629],
+                                           ['2004/05',  165,      938,         522],
+                                           ['2005/06',  135,      1120,        599],
+                                           ['2006/07',  157,      1167,        587],
+                                           ['2007/08',  139,      1110,        615],
+                                           ['2008/09',  136,      691,         629],
+                                           ['2004/05',  165,      938,         522],
+                                           ['2005/06',  135,      1120,        599],
+                                           ['2006/07',  157,      1167,        587],
+                                           ['2007/08',  139,      1110,        615],
+                                           ['2008/09',  136,      691,         629],
+                                           ['2004/05',  165,      938,         522],
+                                           ['2005/06',  135,      1120,        599],
+                                           ['2006/07',  157,      1167,        587],
+                                           ['2007/08',  139,      1110,        615],
+                                           ['2008/09',  136,      691,         629],
+                                           ['15.6.2018',  165,      938,         522],
+                                           ['15.6.2018',  135,      1120,        599],
+                                           ['15.6.2018',  157,      1167,        587],
+                                           ['15.6.2018',  139,      1110,        615],
+                                           ['15.6.2018',  136,      691,         629],
+                                        ]);
+                                  
+                                      var options = {
+                                        title : 'Prikaz objav, komentarjev in reakcij na posamezen dan',
+                                        vAxis: {title: 'Stevilo'},
+                                        hAxis: {title: 'Dan'},
+                                        seriesType: 'bars',
+                                        series: {5: {type: 'line'}}
+                                      };
+                                  
+                                      var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+                                      chart.draw(data, options);
+                                    }
+                                      </script>
+                                    </head>
+                                    <body>
+                                      <div id="chart_div" style="width: 100%; height: 100%;"></div>
+                                    </body>
+                                  </html>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <table class="table table-striped font-size-12px">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="width: 7%">Slika</th>
+                                    <th scope="col">Sporočilo</th>
+                                    <th scope="col">Avtor</th>
+                                    <th scope="col">Datum</th>
+                                    <th scope="col">Število komentarjev</th>
+                                    <th scope="col">Komentarji</th>
+                                    <th scope="col">Število reakcij</th>
+                                    <th scope="col">Število delitev</th>
+                                    <th scope="col">Povezave</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" style="width: 7%">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/14/65506445.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting,
+                                        remaining essentially unchanged.</td>
+                                    <td>Petra Peterka</td>
+                                    <td>15.6.2018</td>
+                                    <td>2</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>12</td>
+                                    <td>0</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/15/65506533.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book.</td>
+                                    <td>Canon</td>
+                                    <td>14.6.2018</td>
+                                    <td>34</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>123</td>
+                                    <td>6</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/05/16/65498949.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book.</td>
+                                    <td>Canon</td>
+                                    <td>4.6.2018</td>
+                                    <td>64</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>23</td>
+                                    <td>2</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+
+
+
+
+                                <tr>
+                                    <th scope="row" style="width: 7%">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/14/65506246.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into electronic typesetting,
+                                        remaining essentially unchanged.</td>
+                                    <td>Petra Peterka</td>
+                                    <td>15.6.2018</td>
+                                    <td>2</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>12</td>
+                                    <td>0</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/12/65505613.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book.</td>
+                                    <td>Canon</td>
+                                    <td>14.6.2018</td>
+                                    <td>34</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>123</td>
+                                    <td>6</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img src="https://img.rtvslo.si/_up/upload/2018/06/15/65506550.jpg" alt="..." class="img-thumbnail">
+                                    </th>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book.</td>
+                                    <td>Canon</td>
+                                    <td>4.6.2018</td>
+                                    <td>64</td>
+                                    <td>
+                                        <a href="#" role="button" class="btn btn-light btn-sm">Pokaži komentarje</a>
+                                    </td>
+                                    <td>23</td>
+                                    <td>2</td>
+                                    <td>
+                                        <button type="button" class="btn btn-light btn-sm">Povezava</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-6">Pricing</h1>
-        <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with
-            default Bootstrap components and utilities with little customization.</p>
-        <div class="container-fluid bg-iprom-color">
-            <div class="row mb-3">
-                <div class="col-sm on-hover">
-                    <i class="fab fa-facebook fa-5x"></i>
-                </div>
-                <div class="col-sm on-hover">
-                    <i class="fab fa-instagram fa-5x"></i>
-                </div>
-                <div class="col-sm on-hover">
-                    <i class="fab fa-linkedin fa-5x"></i>
-                </div>
-                <div class="col-sm on-hover">
-                    <i class="fab fa-twitter-square fa-5x"></i>
-                </div>
-                <div class="col-sm on-hover">
-                    <i class="fab fa-snapchat-square fa-5x"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row mb-3">
-            <div class="col-sm bg-light-red">
-                Canon
-            </div>
-            <div class="col-sm">
-                1000 sledilcev
-            </div>
-            <div class="col-sm">
-                zelo odzivna
-            </div>
-            <div class="col-sm">
-                12 objav
-            </div>
-            <div class="col-sm">
-                32 objav obiskovalcev
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm">
-                Paloma
-            </div>
-            <div class="col-sm">
-                2342 sledilcev
-            </div>
-            <div class="col-sm">
-                srednje odzivna
-            </div>
-            <div class="col-sm">
-                6 objav
-            </div>
-            <div class="col-sm">
-                7877 objav obiskovalcev
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm">
-                Volkswagen
-            </div>
-            <div class="col-sm">
-                40023 sledilcev
-            </div>
-            <div class="col-sm">
-                odzivna
-            </div>
-            <div class="col-sm">
-                31 objav
-            </div>
-            <div class="col-sm">
-                415 objav obiskovalcev
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-sm">
-                NLB
-            </div>
-            <div class="col-sm">
-                987332 sledilcev
-            </div>
-            <div class="col-sm">
-                neodzivna
-            </div>
-            <div class="col-sm">
-                24 objav
-            </div>
-            <div class="col-sm">
-                9815 objav obiskovalcev
-            </div>
-        </div>
-    </div>
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
